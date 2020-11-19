@@ -8,59 +8,56 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>Hy Gyus</title>
+    <title>Hello, world!</title>
   </head>
   <body>
-      <!-- row 1 -->
-    <div class="container" style="max-width: 100%;">
-   	 <div class="row" style="background-color: #1E90FF; height: 40px;">
-   			 <div class="col-sm-6">
-   				 <!-- <div id="kiri"> -->
-   					 <img src="..." width="4%" style="margin-top: 2px; margin-right: 10px; margin-left: 190px;">
-   					 <a href="" style="font-size: 20px; color: white;">WEBHOZZ</a>
-   				 <!-- </div> -->
-   			 </div>
-   			 <div class="col-sm-6" style="margin-left: 0px;">
-   				 <div class="kanan">
-   					 <li><a href="index.html">Home</a></li>
-   					 <li><a href="blog.html">Blog</a></li>
-   					 <li><a href="about.html">About Us</a></li>
-   					 <li><a href="contact.html">Contact</a></li>
-   				 </div>
-   			 </div>
-   	 </div>
-    </div>
-
-    <<!-- row 2 -->
+	  <!-- row 1 -->
+	  <?php include("header.php") ?>
+    <!-- row 2 -->
     <div class="container">
    	 <div class="row" style="width: 100%; margin: 20px auto;">
-
-   		 <div class="col-md-12">
-   			 <h2 style="color: #1E90FF;">About Us</h2>
+   		 <div class="col-md-9">
+   			 <h2 style="color: #1E90FF;">Blog</h2>
+   			 <div class="card mb-3">
+   			   <img class="card-img-top" src="..." alt="Card image cap">
+   			   <div class="card-body">
+   			 	<h5 class="card-title">Belajar Web Design itu Menyenangkan</h5>
+   			 	<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+   			 	<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+   			   </div>
+   			 </div>
+    
+   			 <div class="card mb-3">
+   			   <img class="card-img-top" src="..." alt="Card image cap">
+   			   <div class="card-body">
+   			 	<h5 class="card-title">Tips Web Design untuk Pemula</h5>
+   			 	<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+   			 	<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+   			   </div>
+   			 </div>
    		 </div>
-   		 
-   		 <div class="col-md-6">
-   		 
-   			 <img src="..." class="img-thumbnail">
-
-   		 </div>
-
-   		 <div class="col-md-6">
-   			 <h5 style="color: #1E90FF;">What Is This?</h5>
-
-   			 <p align="justify">
-   				 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-   				 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-   				 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-   				 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-   				 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-   				 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-   			 </p>
+   		 <div class="col-md-3">
+   			 <h4 style="color: #1E90FF;">Populer Posts</h4>
+   			 <hr>
+   			 <div class="card mb-3">
+   			   <img class="card-img-top" src="..." alt="Card image cap">
+   			   <div class="card-body">
+   			 	<h5 class="card-title">Belajar Web Design itu Menyenangkan</h5>
+   			 	<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+   			   </div>
+   			 </div>
+   			 <div class="card mb-3">
+   			   <img class="card-img-top" src="..." alt="Card image cap">
+   			   <div class="card-body">
+   			 	<h5 class="card-title">Tips Web Design untuk Pemula</h5>
+   			 	<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+   			   </div>
+   			 </div>
    		 </div>
    	 </div>
     </div>
-     <!-- row 3 -->
-     <div class="container" style="max-width: 100%; background-color: #1E90FF;  padding: 20px 0px; margin-top: 200px;">
+    <!-- row 3 -->
+    <div class="container" style="max-width: 100%; background-color: #1E90FF;  padding: 20px 0px; margin-top: 200px;">
    	 <br>
    	 <div class="row" style="width: 80%; margin: 20px auto; color: white;">
    		 <div class="col-sm-3">
@@ -104,8 +101,8 @@
    			 WA : 0821 4263 1512
    		 </div>
    	 </div>
-    </div>
-
+	</div>
+	<?php include("footer.php") ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
