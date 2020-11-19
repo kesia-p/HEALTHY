@@ -1,0 +1,19 @@
+body{
+    background-color: #EOFFFF;
+    background-color: White;
+}
+.row .kanan li{
+    /* float itu supaya si tombol itu berbaris sejajar kesamping */
+    float: left;
+    /* list-style none itu buat menghapus warna hitam disamping kolom kolomnya */
+    list-style: none;
+    width: 15%;
+    line-height: 40px;
+}
+.row .kanan li a{
+    color: white;
+}
+.row .kanan li a:hover{
+    text-decoration: none;
+    color:#FFBEA8;
+}
