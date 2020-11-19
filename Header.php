@@ -11,7 +11,7 @@
    			 <div class="col-sm-6" style="margin-left: 0px;">
    				 <div class="kanan">
    					 <li><a href="index.php">Home</a></li>
-   					 <li><a href="blog.php">Blog</a></li>
+   					 <li><a href="Blog.php">Blog</a></li>
    					 <li><a href="about.php">About Us</a></li>
    					 <li><a href="contact.php">Contact</a></li>
    				 </div>
