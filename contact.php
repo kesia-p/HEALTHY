@@ -12,7 +12,7 @@
   </head>
   <body>
 	  <!-- row 1 -->
-	  <?php include("header.php") ?>
+	  <?php include("Header.php") ?>
     <!-- row 2 -->
     <div class="container" style="width: 75%;">
    	 <div class="row">
@@ -66,7 +66,7 @@
    	 </div>
 	</div>
 	<!-- row 5 -->
-	<?php include("footer.php") ?>
+	<?php include("Footer.php") ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

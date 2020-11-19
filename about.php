@@ -12,7 +12,7 @@
   </head>
   <body>
 	  <!-- row 1 -->
-	  <?php include("header.php") ?>
+	  <?php include("Header.php") ?>
     <<!-- row 2 -->
     <div class="container">
    	 <div class="row" style="width: 100%; margin: 20px auto;">
@@ -87,7 +87,7 @@
    		 </div>
    	 </div>
 	</div>
-	<?php include("footer.php") ?>
+	<?php include("Footer.php") ?>
 
 
     <!-- Optional JavaScript -->
